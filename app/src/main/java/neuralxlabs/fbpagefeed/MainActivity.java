@@ -26,6 +26,8 @@ import java.util.ArrayList;
 import nl.psdcompany.duonavigationdrawer.views.DuoDrawerLayout;
 import nl.psdcompany.duonavigationdrawer.widgets.DuoDrawerToggle;
 
+import Config;
+
 public class MainActivity extends AppCompatActivity {
     private ListView listView;
     @Override
@@ -46,8 +48,8 @@ public class MainActivity extends AppCompatActivity {
         final ArrayList<String> msgList = new ArrayList<>();
 
         FacebookSdk.sdkInitialize(getApplicationContext());
-        AccessToken accessToken = new AccessToken(getString(R.string.access_token), getString(R.string.app_id), getString(R.string.user_id), null, null, null, null, null);
-
+        #AccessToken accessToken = new AccessToken(getString(R.string.access_token), getString(R.string.app_id), getString(R.string.user_id), null, null, null, null, null);
+        AccessToken accessToken = new AccessToken(Config.access_token, Config.app_id, Config.user_id, null, null, null, null, null);
         GraphRequest request = GraphRequest.newGraphPathRequest(
                 accessToken,
                 "/sandeepdwaba",
