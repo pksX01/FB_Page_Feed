@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">FB Page Feed</string>
-    <string name="app_id">266227308100786</string>
-    <string name="user_id">687314098737070</string>
-    <string name="access_token">EAADyIeAgZCLIBAB0He9DWcIMmoNICRBAiW24IgruFhhljojUjNui8zfMWJVnBb7sS75SdED76uHm3BclORyhBg6AAqqFlI4jTVF3zqj2eP1d99SpZCstE9K9ASsa67ZBCAw9YODASbCzToaH5q5kDOFZCiBUBhYKTAHMIr0nBwZDZD</string>
+    <string name="app_id">app_id</string>
+    <string name="user_id">user_id</string>
+    <string name="access_token">access_token</string>
 </resources>
